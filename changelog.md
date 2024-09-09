@@ -1,1 +1,1 @@
-- Initial working version
+- Initial full release
