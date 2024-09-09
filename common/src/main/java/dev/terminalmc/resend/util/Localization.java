@@ -1,16 +1,16 @@
-package dev.terminalmc.framework.util;
+package dev.terminalmc.resend.util;
 
-import dev.terminalmc.framework.Framework;
+import dev.terminalmc.resend.Resend;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 
 public final class Localization {
     public static String translationKey(String path) {
-        return Framework.MOD_ID + "." + path;
+        return Resend.MOD_ID + "." + path;
     }
 
     public static String translationKey(String domain, String path) {
-        return domain + "." + Framework.MOD_ID + "." + path;
+        return domain + "." + Resend.MOD_ID + "." + path;
     }
 
     public static MutableComponent localized(String path, Object... args) {

@@ -1,13 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "dev.terminalmc.framework.mixin",
+  "package": "dev.terminalmc.resend.mixin",
   "refmap": "${mod_id}.refmap.json",
   "compatibilityLevel": "JAVA_${java_version}",
   "mixins": [
   ],
   "client": [
-    "MixinTitleScreen"
   ],
   "server": [
   ],

@@ -16,8 +16,7 @@
   "entrypoints": {
     "main": [],
     "client": ["${mod_group}.${mod_id}.${mod_name}Fabric"],
-    "server": [],
-    "modmenu": ["${mod_group}.${mod_id}.gui.screen.ModMenuIntegration"]
+    "server": []
   },
 
   "mixins": [
@@ -34,10 +33,7 @@
     "fabric-api": [$fabric_api_versions_list]
   },
 
-  "recommends": {
-    "modmenu": [$modmenu_versions_fabric_list],
-    "cloth-config": [$clothconfig_versions_fabric_list]
-  },
+  "recommends": {},
 
   "suggests": {},
 
