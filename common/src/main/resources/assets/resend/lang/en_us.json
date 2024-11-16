@@ -1,6 +1,9 @@
 {
   "resend.name": "Resend",
 
+  "modmenu.descriptionTranslation.framework": "${mod_description}",
+  "fml.menu.mods.info.description.framework": "${mod_description}",
+
   "key.resend.group": "Resend",
   "key.resend.group.resend": "Resend Last Message or Command"
 }
