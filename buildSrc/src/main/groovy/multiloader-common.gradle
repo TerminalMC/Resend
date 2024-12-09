@@ -38,10 +38,6 @@ repositories {
         )
         filter { includeGroup("org.parchmentmc.data") }
     }
-    maven {
-        name = "Modrinth"
-        url = "https://api.modrinth.com/maven"
-    }
 }
 
 // Declare capabilities on the outgoing configurations.
@@ -58,13 +54,13 @@ repositories {
 }
 
 sourcesJar {
-    from(rootProject.file("LICENSE")) {
+    from(rootProject.file("LICENSE.txt")) {
         rename { "${it}_${mod_name}" }
     }
 }
 
 jar {
-    from(rootProject.file("LICENSE")) {
+    from(rootProject.file("LICENSE.txt")) {
         rename { "${it}_${mod_name}" }
     }
 

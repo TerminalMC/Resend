@@ -25,12 +25,10 @@ Adds a keybind to resend the previous message or command.
 
 </center></div>
 
-### License
-
-[Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)
-
 ### Contact
 
 [![Discord Server](https://img.shields.io/discord/1103153365216669797?logo=discord&label=Discord%20Server&color=%235865F2)](https://discord.terminalmc.dev)
 
 [![GitHub Issues](https://img.shields.io/github/issues/TerminalMC/Resend?logo=github&label=GitHub%20Issues)](https://github.com/TerminalMC/Resend/issues)
+
+[![License](https://img.shields.io/github/license/TerminalMC/Resend?label=License&logo=github&logoColor=white)](https://github.com/TerminalMC/Resend/blob/HEAD/LICENSE.txt)
